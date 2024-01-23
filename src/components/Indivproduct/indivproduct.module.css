@@ -1,0 +1,43 @@
+.main{
+    padding: 45px 20px;
+    background: #FAFAFA;
+   
+}
+.mobicon{
+    width:15px;
+    height: 15px;
+}
+.line{
+    border-bottom: 1px solid gray;
+}
+
+@media (min-width:768px) {
+    .main{
+        padding: 65px 35px 
+    } 
+    .mobicon{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (min-width:1024px) {
+    .main{
+        padding: 60px 64px;
+       
+    } 
+    .mobicon{
+        width:20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:1280px) {
+    .main{
+        padding: 60px 58px;
+    } 
+    .mobicon{
+        width: 20px;
+        height: 20px;
+    }
+}

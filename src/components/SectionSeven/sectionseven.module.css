@@ -1,0 +1,48 @@
+.main{
+    padding: 15px 20px;
+    background: var(--light-gray-1, #FAFAFA);
+   
+}
+.mobicon{
+    width:15px;
+    height: 15px;
+}
+.line{
+    border-bottom: 1px solid gray;
+}
+.linet{
+    border-left: 2px solid #23856D ;
+  height: 70px; /* Adjust the height as needed */
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+@media (min-width:768px) {
+    .main{
+        padding: 25px 35px 
+    } 
+    .mobicon{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (min-width:1024px) {
+    .main{
+        padding: 20px 64px;
+       
+    } 
+    .mobicon{
+        width:20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:1280px) {
+    .main{
+        padding: 20px 58px;
+    } 
+    .mobicon{
+        width: 20px;
+        height: 20px;
+    }
+}
